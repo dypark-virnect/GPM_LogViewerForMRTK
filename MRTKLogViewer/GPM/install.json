@@ -1,0 +1,21 @@
+{
+    "installs": [
+        {
+            "name": "Common",
+            "version": "2.0.2",
+            "dependency": []
+        },
+        {
+            "name": "UI",
+            "version": "2.0.7",
+            "dependency": []
+        },
+        {
+            "name": "LogViewer",
+            "version": "2.0.2",
+            "dependency": [
+                "UI"
+            ]
+        }
+    ]
+}
