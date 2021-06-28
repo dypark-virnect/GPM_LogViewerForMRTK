@@ -9,6 +9,8 @@
 2. package manager > "+" -> add package from disk.. 선택
 3. MRTKLogViewer\Assets\GPMLogViewerForMRTK\package.json 선택
 4. Packages/com.gpm.mrtklogviewer/GPM/LogViewer/Prefabs/MRTKLogViewer.prefab를 씬에 drag & drop 하여 추가
-5. 실행 중 ` 키를 누르면 창이 활성화됩니다.
+## 기능
+- play 중에 ` 키를 누르면 창이 활성화됩니다.
+- 창을 비활성화 하려면 x 아이콘을 누릅니다
 ## mail setting
 - GPM LogViewer 의 mail setting을 설정하시면 테스트 중 로그를 메일로 보낼 수 있습니다.
