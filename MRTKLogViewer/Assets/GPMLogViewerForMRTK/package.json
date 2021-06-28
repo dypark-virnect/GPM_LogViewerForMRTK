@@ -1,0 +1,6 @@
+{
+	"name" : "com.gpm.mrtklogviewer",
+	"version" : "0.1.0",
+	"displayName": "GPM LogViewer for MRTK",
+	"description": "MRTK용 로그뷰어입니다!"
+}

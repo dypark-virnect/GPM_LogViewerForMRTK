@@ -1,0 +1,978 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1052; Version 2009; 64bit' Language: 'ko' Physical Memory: 16318 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\2020.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Projects/GPM_LogViewerForMRTK/MRTKLogViewer
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51699
+Successfully changed project path to: C:/Projects/GPM_LogViewerForMRTK/MRTKLogViewer
+C:/Projects/GPM_LogViewerForMRTK/MRTKLogViewer
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 53.92 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.62 ms.
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path C:/Program Files/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Projects/GPM_LogViewerForMRTK/MRTKLogViewer/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001474 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 45.65 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.877 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005546 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 45.27 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.944 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 3425 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 162.0 MB.
+System memory in use after: 161.2 MB.
+
+Unloading 2012 unused Assets to reduce memory usage. Loaded Objects now: 3680.
+Total: 5.193500 ms (FindLiveObjects: 0.571600 ms CreateObjectMapping: 0.313100 ms MarkObjects: 2.248300 ms  DeleteObjects: 2.059500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73375568fee951cd03f03eadad72722f') in 0.012161 seconds
+  Import took 0.016608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.840394 seconds.
+  path: Packages/com.gpm.mrtklogviewer/GPM/LogViewer/Sample/Scenes/Sample.unity
+  artifactKey: Guid(60a927df3c7e1954eb39b17f35fbf998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.gpm.mrtklogviewer/GPM/LogViewer/Sample/Scenes/Sample.unity using Guid(60a927df3c7e1954eb39b17f35fbf998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a069955f5ec8017941204a01c88ebba') in 0.002001 seconds
+  Import took 0.006388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.655196 seconds.
+  path: Packages/com.gpm.mrtklogviewer/GPM
+  artifactKey: Guid(589a9b27505f44340a3e1a73005eb559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.gpm.mrtklogviewer/GPM using Guid(589a9b27505f44340a3e1a73005eb559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd91558d9085a140c831babc7d7b80ba') in 0.001393 seconds
+  Import took 0.006161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.489413 seconds.
+  path: Packages/com.gpm.mrtklogviewer
+  artifactKey: Guid(90b6d51b68af10c9b4c80c39e7689b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.gpm.mrtklogviewer using Guid(90b6d51b68af10c9b4c80c39e7689b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7e14e78aae71d0b074b947408cd261') in 0.001650 seconds
+  Import took 0.006070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 128.571030 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6a1853b736837ecfb0820a881449cb') in 0.001852 seconds
+  Import took 0.006855 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005981 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Assets/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Assets/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Assets/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.555 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 3312 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.4 MB.
+System memory in use after: 150.1 MB.
+
+Unloading 2017 unused Assets to reduce memory usage. Loaded Objects now: 3684.
+Total: 4.554300 ms (FindLiveObjects: 0.420000 ms CreateObjectMapping: 0.210900 ms MarkObjects: 2.019000 ms  DeleteObjects: 1.903200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.352622 seconds.
+  path: Assets/package.json
+  artifactKey: Guid(7ba4b1d4fe7585741b0fece2633ce236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/package.json using Guid(7ba4b1d4fe7585741b0fece2633ce236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6c97ea88afb2ec382dbc60bb579d37') in 0.025201 seconds
+  Import took 0.029886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.148614 seconds.
+  path: Assets/GPM/Common
+  artifactKey: Guid(de101ea60ff094f9e84c6cc1175a69c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GPM/Common using Guid(de101ea60ff094f9e84c6cc1175a69c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7de03b074300311cab26230d3ef6008') in 0.001903 seconds
+  Import took 0.006586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.857463 seconds.
+  path: Assets/GPM/Common/gpm_common.asmdef
+  artifactKey: Guid(f35024e18ccf59c4681527787a971c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GPM/Common/gpm_common.asmdef using Guid(f35024e18ccf59c4681527787a971c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc7ada738c6faa8ddd5d939017d5658') in 0.002388 seconds
+  Import took 0.006706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028134 seconds.
+  path: Assets/GPM/Common/gpm_common.asmdef
+  artifactKey: Guid(f35024e18ccf59c4681527787a971c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GPM/Common/gpm_common.asmdef using Guid(f35024e18ccf59c4681527787a971c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc7ada738c6faa8ddd5d939017d5658') in 0.001447 seconds
+  Import took 0.005987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.752057 seconds.
+  path: Assets/GPM/Common/GpmCommon.cs
+  artifactKey: Guid(f3d4896632b4f084fb53aa2bc2e6e2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GPM/Common/GpmCommon.cs using Guid(f3d4896632b4f084fb53aa2bc2e6e2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20af8cd4a91b3279518c55c7a44e34b') in 0.003711 seconds
+  Import took 0.008215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001994 seconds.
+  path: Assets/GPM/Common/GpmCommon.cs
+  artifactKey: Guid(f3d4896632b4f084fb53aa2bc2e6e2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GPM/Common/GpmCommon.cs using Guid(f3d4896632b4f084fb53aa2bc2e6e2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20af8cd4a91b3279518c55c7a44e34b') in 0.001573 seconds
+  Import took 0.006067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.482815 seconds.
+  path: Assets/GPM/LICENSE.txt
+  artifactKey: Guid(229f2736f2b40a748bc3344ec2e25b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GPM/LICENSE.txt using Guid(229f2736f2b40a748bc3344ec2e25b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a2543269acd8f15198b0951ef697185') in 0.005512 seconds
+  Import took 0.010323 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006157 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unable to locate the shader source folder in the package
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Microsoft.MixedReality.Toolkit.Utilities.Editor.OnLoadUtilities:ImportShaderFiles (System.IO.DirectoryInfo) (at Assets/MRTK/StandardAssets/EditorUtilities/OnLoadUtilities.cs:169)
+Microsoft.MixedReality.Toolkit.Utilities.Editor.OnLoadUtilities:EnsureShaders (bool) (at Assets/MRTK/StandardAssets/EditorUtilities/OnLoadUtilities.cs:61)
+Microsoft.MixedReality.Toolkit.Utilities.Editor.OnLoadUtilities:.cctor () (at Assets/MRTK/StandardAssets/EditorUtilities/OnLoadUtilities.cs:23)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/MRTK/StandardAssets/EditorUtilities/OnLoadUtilities.cs Line: 169)
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Assets/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Assets/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Assets/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.517 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 3292 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.9 MB.
+System memory in use after: 151.7 MB.
+
+Unloading 1225 unused Assets to reduce memory usage. Loaded Objects now: 3941.
+Total: 3.976700 ms (FindLiveObjects: 0.425400 ms CreateObjectMapping: 0.176700 ms MarkObjects: 2.149500 ms  DeleteObjects: 1.224000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 147.918082 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(3e83f1e3e357865439fbea5cd116a5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(3e83f1e3e357865439fbea5cd116a5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12689bb8a548864048ae04687ca1d11d') in 0.005476 seconds
+  Import took 0.010927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.538341 seconds.
+  path: Assets/GPMLogViewerForMRTK
+  artifactKey: Guid(de6ff2d21553612409031de5909dcda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GPMLogViewerForMRTK using Guid(de6ff2d21553612409031de5909dcda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ab6027a0cbd36a3728ea20716c73f8') in 0.001607 seconds
+  Import took 0.007537 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005773 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unable to locate the shader source folder in the package
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Microsoft.MixedReality.Toolkit.Utilities.Editor.OnLoadUtilities:ImportShaderFiles (System.IO.DirectoryInfo) (at Assets/MRTK/StandardAssets/EditorUtilities/OnLoadUtilities.cs:169)
+Microsoft.MixedReality.Toolkit.Utilities.Editor.OnLoadUtilities:EnsureShaders (bool) (at Assets/MRTK/StandardAssets/EditorUtilities/OnLoadUtilities.cs:61)
+Microsoft.MixedReality.Toolkit.Utilities.Editor.OnLoadUtilities:.cctor () (at Assets/MRTK/StandardAssets/EditorUtilities/OnLoadUtilities.cs:23)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/MRTK/StandardAssets/EditorUtilities/OnLoadUtilities.cs Line: 169)
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Assets/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Assets/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Assets/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.435 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 3289 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.0 MB.
+System memory in use after: 157.0 MB.
+
+Unloading 273 unused Assets to reduce memory usage. Loaded Objects now: 3945.
+Total: 2.976200 ms (FindLiveObjects: 0.415400 ms CreateObjectMapping: 0.175000 ms MarkObjects: 1.814800 ms  DeleteObjects: 0.569600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.017754 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(d70dc10b6e45c644e9beacd8aa31727b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(d70dc10b6e45c644e9beacd8aa31727b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569c7924f518e58bcff484694cc01b93') in 0.011390 seconds
+  Import took 0.017100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.643356 seconds.
+  path: Assets/MRTK/SDK/StandardAssets/Profiles/BoundsControl/HoloLens2Style_Slate/BoxDisplayConfiguration_HoloLens2_Slate.asset
+  artifactKey: Guid(c5f46ad20087a4e49bdd6f8f64996058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/StandardAssets/Profiles/BoundsControl/HoloLens2Style_Slate/BoxDisplayConfiguration_HoloLens2_Slate.asset using Guid(c5f46ad20087a4e49bdd6f8f64996058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ae378a2fd6ae93b3b6b259ebb12027') in 0.003192 seconds
+  Import took 0.007953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/MRTK/SDK/Profiles/HoloLens1/DefaultHoloLens1HandTrackingProfile.asset
+  artifactKey: Guid(7caa3a4df60a3c244a052673a045f939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Profiles/HoloLens1/DefaultHoloLens1HandTrackingProfile.asset using Guid(7caa3a4df60a3c244a052673a045f939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d11abf1ec71e374c3a3a3acd515bd6') in 0.002287 seconds
+  Import took 0.006702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateGrabbed.mat
+  artifactKey: Guid(21a2a54b7c73c054fbdae394e389a56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateGrabbed.mat using Guid(21a2a54b7c73c054fbdae394e389a56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f80e2d8f7f8a58c75d9789523fc959') in 0.046801 seconds
+  Import took 0.051341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateGrabbableProximity.mat
+  artifactKey: Guid(84f68369e1f0a8e4cb6254dd7e2fe6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateGrabbableProximity.mat using Guid(84f68369e1f0a8e4cb6254dd7e2fe6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b17ecdf8f3425b4fb46fc4fe91962f') in 0.108248 seconds
+  Import took 0.113167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/MRTK/SDK/Profiles/HoloLens1/DefaultHoloLens1PointerProfile.asset
+  artifactKey: Guid(fe5a86eedb95ca14b8e9a67b7b60166a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Profiles/HoloLens1/DefaultHoloLens1PointerProfile.asset using Guid(fe5a86eedb95ca14b8e9a67b7b60166a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fce7b3dbb9f59a2be1fb21d9a160b4b') in 0.002114 seconds
+  Import took 0.006324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/MRTK/SDK/Profiles/HoloLens2/DefaultHoloLens2CameraProfile.asset
+  artifactKey: Guid(fafb126ad4f443c4eb5cf5ccd88580a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Profiles/HoloLens2/DefaultHoloLens2CameraProfile.asset using Guid(fafb126ad4f443c4eb5cf5ccd88580a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c31867b1416f9321e343002fc1436f2') in 0.002215 seconds
+  Import took 0.006165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/MRTK/SDK/Profiles/HoloLens1/DefaultHoloLens1ConfigurationProfile.asset
+  artifactKey: Guid(6a8a67bfe7e0c9d44ab826339baf604f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Profiles/HoloLens1/DefaultHoloLens1ConfigurationProfile.asset using Guid(6a8a67bfe7e0c9d44ab826339baf604f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4df72bd2c2185415d42664ad0d764f') in 0.002113 seconds
+  Import took 0.006251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/MRTK/SDK/Profiles/HoloLens2/DefaultHoloLens2ConfigurationProfile.asset
+  artifactKey: Guid(62e12964e357fbc4c97767f0d483a202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Profiles/HoloLens2/DefaultHoloLens2ConfigurationProfile.asset using Guid(62e12964e357fbc4c97767f0d483a202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3960a1cbc922b22474a97ce83f553655') in 0.001938 seconds
+  Import took 0.005897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/MRTK/SDK/Profiles/HoloLens1/DefaultHoloLens1InputSimulationProfile.asset
+  artifactKey: Guid(4e16cf9071755ac4d9d12bf4694a052b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Profiles/HoloLens1/DefaultHoloLens1InputSimulationProfile.asset using Guid(4e16cf9071755ac4d9d12bf4694a052b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e963af5e60f958714c39b4f5244559') in 0.001992 seconds
+  Import took 0.005902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateNoBorder.mat
+  artifactKey: Guid(ac828db81e8ab314db74b178190c5d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateNoBorder.mat using Guid(ac828db81e8ab314db74b178190c5d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b6ad0dd2451bee79fc8307c18a0a3b') in 0.038578 seconds
+  Import took 0.043319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/MRTK/SDK/Profiles/HoloLens2/DefaultHoloLens2InputSystemProfile.asset
+  artifactKey: Guid(0adb3e1e13871de40b38a99993e25066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Profiles/HoloLens2/DefaultHoloLens2InputSystemProfile.asset using Guid(0adb3e1e13871de40b38a99993e25066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb8d034c3fabbd5c55049149eb14d071') in 0.002475 seconds
+  Import took 0.007143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlate.mat
+  artifactKey: Guid(e41667d2d360bd1458e0c1a0d08c8bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlate.mat using Guid(e41667d2d360bd1458e0c1a0d08c8bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf684d70a6dda88f1535cc43dcde33c7') in 0.006037 seconds
+  Import took 0.011118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Prefabs/ButtonHoloLens1.prefab
+  artifactKey: Guid(660eb4ca29885514d8d867964e15ba38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Prefabs/ButtonHoloLens1.prefab using Guid(660eb4ca29885514d8d867964e15ba38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b81976fab4d70d8ee7a6ecbb3c5076') in 0.025575 seconds
+  Import took 0.030312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateBorderOnly.mat
+  artifactKey: Guid(e1c25428c709d6749809d2df8f1136c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateBorderOnly.mat using Guid(e1c25428c709d6749809d2df8f1136c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb402245ec6af9a0f632ada1afadc31') in 0.053343 seconds
+  Import took 0.057732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateDwellVisual.mat
+  artifactKey: Guid(91ce4838b0f79cf448389515cd86922a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateDwellVisual.mat using Guid(91ce4838b0f79cf448389515cd86922a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22fa29edc55d01edcc4a56db538cc7f0') in 0.049052 seconds
+  Import took 0.053368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateLabel.mat
+  artifactKey: Guid(12037984f3c62584b8c7b1df94c9cf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateLabel.mat using Guid(12037984f3c62584b8c7b1df94c9cf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e3c0fe29897e5380fae78f0877270e') in 0.062483 seconds
+  Import took 0.066866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/MRTK/SDK/StandardAssets/Profiles/BoundsControl/HoloLens2Style_Volumetric/BoxDisplayConfiguration_HoloLens2_Volumetric.asset
+  artifactKey: Guid(9624519f94bcd574b9b02a3f55ec22dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/StandardAssets/Profiles/BoundsControl/HoloLens2Style_Volumetric/BoxDisplayConfiguration_HoloLens2_Volumetric.asset using Guid(9624519f94bcd574b9b02a3f55ec22dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4308ea1fde734c1f10c9fe6c5650fec') in 0.001930 seconds
+  Import took 0.006176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/MRTK/SDK/Profiles/HoloLens1/DefaultHoloLens1InputSystemProfile.asset
+  artifactKey: Guid(c1ab4dcbb2087d644bca2483b6c7318c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Profiles/HoloLens1/DefaultHoloLens1InputSystemProfile.asset using Guid(c1ab4dcbb2087d644bca2483b6c7318c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '321a6fdab4b6b43cb18d0151a2a25b86') in 0.002125 seconds
+  Import took 0.006223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Prefabs/ButtonHoloLens1Toggle.prefab
+  artifactKey: Guid(36293a2b817bfec468a4b1f5a700fae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Prefabs/ButtonHoloLens1Toggle.prefab using Guid(36293a2b817bfec468a4b1f5a700fae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace8fc81f5efdda3ce22df25d401645b') in 0.006922 seconds
+  Import took 0.011219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateGrabbable.mat
+  artifactKey: Guid(c71d3cd0b3f89854a99e008d86384fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateGrabbable.mat using Guid(c71d3cd0b3f89854a99e008d86384fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a207b9fc8074367dcf5625fed7b14389') in 0.096649 seconds
+  Import took 0.100792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateCircular.mat
+  artifactKey: Guid(3764c3f9e3955904b9721982b81587ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateCircular.mat using Guid(3764c3f9e3955904b9721982b81587ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca111a72866a8f292fa32ab23fde06f') in 0.059470 seconds
+  Import took 0.063866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/MRTK/SDK/Profiles/HoloLens2/DefaultHoloLens2HandTrackingProfile.asset
+  artifactKey: Guid(1041340c70308ed4d966dc06db22c812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Profiles/HoloLens2/DefaultHoloLens2HandTrackingProfile.asset using Guid(1041340c70308ed4d966dc06db22c812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a52c225792eac485ae028b9440a174f') in 0.002068 seconds
+  Import took 0.005963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/MRTK/SDK/Profiles/HoloLens1/DefaultHoloLens1CameraProfile.asset
+  artifactKey: Guid(d4fdcd615ffde2f498dfaf43420f34e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Profiles/HoloLens1/DefaultHoloLens1CameraProfile.asset using Guid(d4fdcd615ffde2f498dfaf43420f34e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d924dde125954561e1cd8e70dbed8cf') in 0.001921 seconds
+  Import took 0.006123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateHover.mat
+  artifactKey: Guid(510865285689308439b818fd85fc63d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateHover.mat using Guid(510865285689308439b818fd85fc63d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8fb597e8fd7925a965531df95132526') in 0.005128 seconds
+  Import took 0.009437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.204839 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateRecordingState.mat
+  artifactKey: Guid(327c9533302e5714680077facb5624b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateRecordingState.mat using Guid(327c9533302e5714680077facb5624b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c9a752b019e0091a7098c77643cfb6') in 0.005689 seconds
+  Import took 0.011962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateToggleState.mat
+  artifactKey: Guid(96e9c1fb1bd8d634eb26f070bae49d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateToggleState.mat using Guid(96e9c1fb1bd8d634eb26f070bae49d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd4125fd8018c90e9d8111e56461754') in 0.005039 seconds
+  Import took 0.009431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBox.mat
+  artifactKey: Guid(3b827c9d2dfdc2a4a8f6f258890fecdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBox.mat using Guid(3b827c9d2dfdc2a4a8f6f258890fecdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d124ad148d76b846ccbe5905bbf24b4') in 0.069676 seconds
+  Import took 0.074028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateThickBorder.mat
+  artifactKey: Guid(7eb550a93f078c444a813c79c2af281c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateThickBorder.mat using Guid(7eb550a93f078c444a813c79c2af281c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ac9e139a1270a3fe3eea7cef881503') in 0.005448 seconds
+  Import took 0.010176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.203087 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Themes/HolographicButtonBackPlate.asset
+  artifactKey: Guid(b352bb939c0f03a46ad8db4fed21dce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Themes/HolographicButtonBackPlate.asset using Guid(b352bb939c0f03a46ad8db4fed21dce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8974bfec89393e33eb6b43d6173d2c77') in 0.002595 seconds
+  Import took 0.007420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonContentCageProximityCircular.mat
+  artifactKey: Guid(9c203d871aec3b84fa8684e45af345d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonContentCageProximityCircular.mat using Guid(9c203d871aec3b84fa8684e45af345d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a760c61bc7a115009de280e6e54a49ab') in 0.111079 seconds
+  Import took 0.115618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconFollowMe.mat
+  artifactKey: Guid(e822bcf2102b15e44bd007db0e9ab2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconFollowMe.mat using Guid(e822bcf2102b15e44bd007db0e9ab2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb33e0375676e71c3ed8336d5e0edf32') in 0.024390 seconds
+  Import took 0.029215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconHandRay.mat
+  artifactKey: Guid(6c55987faaeb4e14a9589fa664f9cf28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconHandRay.mat using Guid(6c55987faaeb4e14a9589fa664f9cf28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35e15a3cabd236835cb93389e3ef46d') in 0.024149 seconds
+  Import took 0.028815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconHandMesh.mat
+  artifactKey: Guid(16196be4f9f6be04eb8cb48a88faa18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconHandMesh.mat using Guid(16196be4f9f6be04eb8cb48a88faa18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b71780ba779f22de12f85df80a918a85') in 0.005266 seconds
+  Import took 0.010116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonContent.mat
+  artifactKey: Guid(602c6d65817f80141b77bfbe25824816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonContent.mat using Guid(602c6d65817f80141b77bfbe25824816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12080d4eac6708643473b646ebe5a4b6') in 0.050241 seconds
+  Import took 0.054988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconAdd.mat
+  artifactKey: Guid(d22625f468957a54b90d18be2397a8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconAdd.mat using Guid(d22625f468957a54b90d18be2397a8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b083fc25bcd24037e827d30400e11bc') in 0.004875 seconds
+  Import took 0.008930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconMRTKLogo.mat
+  artifactKey: Guid(2ce78605eafb05c4fa0cd0fae906442e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconMRTKLogo.mat using Guid(2ce78605eafb05c4fa0cd0fae906442e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4771a72632a680735f72b61c777b5229') in 0.023436 seconds
+  Import took 0.027775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconHome.mat
+  artifactKey: Guid(cd69c595b137e644e953966162d9153c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconHome.mat using Guid(cd69c595b137e644e953966162d9153c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6480fb68657379d7666e82a3fca601f') in 0.005050 seconds
+  Import took 0.009338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconGrabAreaDoubleProximity.mat
+  artifactKey: Guid(e60588d49aa9fb7488c7c4846ed01100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconGrabAreaDoubleProximity.mat using Guid(e60588d49aa9fb7488c7c4846ed01100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074a4ef824045491c9e9e5d732fac836') in 0.030319 seconds
+  Import took 0.034470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconSettings.mat
+  artifactKey: Guid(a079c7ee5a3250141b45ab3014544d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconSettings.mat using Guid(a079c7ee5a3250141b45ab3014544d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2135facaf0ed819748dda9b7406b68') in 0.005122 seconds
+  Import took 0.009589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconMicrophone.mat
+  artifactKey: Guid(6e5fa350af5b0cc41bb41413508c85ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconMicrophone.mat using Guid(6e5fa350af5b0cc41bb41413508c85ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf706457c060a292d70b6efc1c7caabe') in 0.005155 seconds
+  Import took 0.009814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconFontMaterial.mat
+  artifactKey: Guid(1a5d460a0a1d61646aa137eb0bc8b3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconFontMaterial.mat using Guid(1a5d460a0a1d61646aa137eb0bc8b3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360aa6a3b032c5dd8888153f0bb1db93') in 0.005495 seconds
+  Import took 0.010911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Themes/HolographicButtonFrontPlate.asset
+  artifactKey: Guid(a6b8afdd89aaff74ba2d73ffc422a212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Themes/HolographicButtonFrontPlate.asset using Guid(a6b8afdd89aaff74ba2d73ffc422a212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '794a227ae8f6bd292390321266405bf9') in 0.002755 seconds
+  Import took 0.008315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconRadioOff.mat
+  artifactKey: Guid(5ef922bb146acd64ba7755970a86fc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconRadioOff.mat using Guid(5ef922bb146acd64ba7755970a86fc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1bdf43fd4f5a1504d47ab5fe5dc7205') in 0.005509 seconds
+  Import took 0.010348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonContentCageProximity.mat
+  artifactKey: Guid(630db085c408cb0459c8375c3fd9ff4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonContentCageProximity.mat using Guid(630db085c408cb0459c8375c3fd9ff4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a456a2b801a6fc40553b504b2df90a4b') in 0.006082 seconds
+  Import took 0.010993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconGrabAreaVertical.mat
+  artifactKey: Guid(27ad260fb5b302f4d9cccb0c84b0fe43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconGrabAreaVertical.mat using Guid(27ad260fb5b302f4d9cccb0c84b0fe43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca8b89b0584d333b1096a4d84a919a7') in 0.005436 seconds
+  Import took 0.010425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconSearch.mat
+  artifactKey: Guid(872eefe3e70fffc4b920de99c13c7eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconSearch.mat using Guid(872eefe3e70fffc4b920de99c13c7eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19896d942bada5f32e7719e830b8c578') in 0.005893 seconds
+  Import took 0.010811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconRefresh.mat
+  artifactKey: Guid(4052ae3fc8d96464f99cf1be747a2b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconRefresh.mat using Guid(4052ae3fc8d96464f99cf1be747a2b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e3e8764541595aae9470bd50030006a') in 0.005583 seconds
+  Import took 0.010323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconMessage.mat
+  artifactKey: Guid(2f6a56743214ba14a87832f3c4305be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconMessage.mat using Guid(2f6a56743214ba14a87832f3c4305be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0ab6f32d10ef9f90b9f929484824b0') in 0.005233 seconds
+  Import took 0.009811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconCheckBoxOff.mat
+  artifactKey: Guid(78a69abefaf4c6c4db1853b56cb402aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconCheckBoxOff.mat using Guid(78a69abefaf4c6c4db1853b56cb402aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0605074de8bd3eb47b4539840df58b') in 0.005210 seconds
+  Import took 0.009893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Themes/HolographicButtonFrontPlateThick.asset
+  artifactKey: Guid(9c3356eccf7a3e048a86e3d019c2ec8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Themes/HolographicButtonFrontPlateThick.asset using Guid(9c3356eccf7a3e048a86e3d019c2ec8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b077fab22d6f249321ac645cdc922175') in 0.003373 seconds
+  Import took 0.008706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconGrabAreaDouble.mat
+  artifactKey: Guid(9eb00addb282e8140a8671ff6792e471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconGrabAreaDouble.mat using Guid(9eb00addb282e8140a8671ff6792e471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caab09350c8107702b9beb1a79ae1929') in 0.023999 seconds
+  Import took 0.028880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconPin.mat
+  artifactKey: Guid(bad7386b525d80647801930773999b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconPin.mat using Guid(bad7386b525d80647801930773999b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cdd2be5bd74d38b14c892ae5fd63519') in 0.005197 seconds
+  Import took 0.009859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonContentCageProximityUnityUI.mat
+  artifactKey: Guid(3c8eb29fb551a6541acaeee109c21e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonContentCageProximityUnityUI.mat using Guid(3c8eb29fb551a6541acaeee109c21e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7bf8cfd7b281696ed41b4a16c9dd72') in 0.005474 seconds
+  Import took 0.010220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonContentCage.mat
+  artifactKey: Guid(2c616130a44d3a64aaa7dcd700a133a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonContentCage.mat using Guid(2c616130a44d3a64aaa7dcd700a133a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48dbd95c5f0977ca51753db0c131c19') in 0.033975 seconds
+  Import took 0.038527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconCheckBoxOn.mat
+  artifactKey: Guid(b57e10af07b0ffe4db5dfbdece3cf25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconCheckBoxOn.mat using Guid(b57e10af07b0ffe4db5dfbdece3cf25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2fb587ee51d8231bdf920d069645a3') in 0.005502 seconds
+  Import took 0.010451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconHandJoint.mat
+  artifactKey: Guid(51ecd49a64fb18644b678471746f2ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconHandJoint.mat using Guid(51ecd49a64fb18644b678471746f2ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61122c7ce807d6f5830661144c464788') in 0.004870 seconds
+  Import took 0.010020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Themes/HolographicButtonBackPlateToggleSelected.asset
+  artifactKey: Guid(74db282e3608d014b860043b54a02a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Themes/HolographicButtonBackPlateToggleSelected.asset using Guid(74db282e3608d014b860043b54a02a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361f427b7d34c86e24f28494d82dd5ea') in 0.002178 seconds
+  Import took 0.007015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconClose.mat
+  artifactKey: Guid(58cb57453c5fea84eb00d424efeda8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconClose.mat using Guid(58cb57453c5fea84eb00d424efeda8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc95ff5e1eb888e7b1b63fb396f734e') in 0.005214 seconds
+  Import took 0.009940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconProfiler.mat
+  artifactKey: Guid(5668d4eb859a6d048a438ee7581b865a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconProfiler.mat using Guid(5668d4eb859a6d048a438ee7581b865a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392d9c70dac2f7ec835116bff5a6c2f1') in 0.005259 seconds
+  Import took 0.009730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonContentCageProximityCircularUnityUI.mat
+  artifactKey: Guid(654dc1470039a8e4aa8b9e85c9868dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonContentCageProximityCircularUnityUI.mat using Guid(654dc1470039a8e4aa8b9e85c9868dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19397c045d55e08dc490e3416a103a2') in 0.005321 seconds
+  Import took 0.009825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconCamera.mat
+  artifactKey: Guid(2617a569955278741875eb76eada9ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconCamera.mat using Guid(2617a569955278741875eb76eada9ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f62a1e60cb7c41f474fd237fbb76b82') in 0.005160 seconds
+  Import took 0.009915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconRadioOn.mat
+  artifactKey: Guid(f6be0c246362c824e8f86f2047ea070e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconRadioOn.mat using Guid(f6be0c246362c824e8f86f2047ea070e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f33ff628da3fc38dac5c21871cadbb4') in 0.005195 seconds
+  Import took 0.010085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 240.602446 seconds.
+  path: Assets/GPMLogViewerForMRTK/GPM/LogViewer/Prefabs/GpmLogViewer.prefab
+  artifactKey: Guid(907b278a7d3eede48ac3da3286160283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GPMLogViewerForMRTK/GPM/LogViewer/Prefabs/GpmLogViewer.prefab using Guid(907b278a7d3eede48ac3da3286160283) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff63c61d222 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff63c5e8c02 (Unity) ResolveArtifactV2
+0x00007ff63c608250 (Unity) ImportToObjects
+0x00007ff63c607729 (Unity) ImportAsset
+0x00007ff63c5698b8 (Unity) AssetImportWorker::Import
+0x00007ff63c5bd8af (Unity) <lambda_e7e5f5e49556456463706cfa5dd72d0a>::operator()
+0x00007ff63c6606e2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff63c662840 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff63c665fce (Unity) asio::io_service::run
+0x00007ff63c5e967b (Unity) RunAssetImportWorkerClientV2
+0x00007ff63c5e96d0 (Unity) RunAssetImporterV2
+0x00007ff63badb2a6 (Unity) Application::InitializeProject
+0x00007ff63c45e482 (Unity) WinMain
+0x00007ff63e2e67b6 (Unity) __scrt_common_main_seh
+0x00007fff64627034 (KERNEL32) BaseThreadInitThunk
+0x00007fff65042651 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(907b278a7d3eede48ac3da3286160283) Importer(-1,00000000000000000000000000000000), Assets/GPMLogViewerForMRTK/GPM/LogViewer/Prefabs/GpmLogViewer.prefab from editor
+Resuming Guid(907b278a7d3eede48ac3da3286160283) Importer(-1,00000000000000000000000000000000) -> 3c2265e67d18ae7ed9b693f062bb718a 
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff63c61d222 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff63c5e8c02 (Unity) ResolveArtifactV2
+0x00007ff63c5df9a1 (Unity) ProduceArtifactV2
+0x00007ff63c53355e (Unity) AssetDatabase::ProduceArtifact
+0x00007ff63c518b18 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff63c608619 (Unity) ImportToObjects
+0x00007ff63c607729 (Unity) ImportAsset
+0x00007ff63c5698b8 (Unity) AssetImportWorker::Import
+0x00007ff63c5bd8af (Unity) <lambda_e7e5f5e49556456463706cfa5dd72d0a>::operator()
+0x00007ff63c6606e2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff63c662840 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff63c665fce (Unity) asio::io_service::run
+0x00007ff63c5e967b (Unity) RunAssetImportWorkerClientV2
+0x00007ff63c5e96d0 (Unity) RunAssetImporterV2
+0x00007ff63badb2a6 (Unity) Application::InitializeProject
+0x00007ff63c45e482 (Unity) WinMain
+0x00007ff63e2e67b6 (Unity) __scrt_common_main_seh
+0x00007fff64627034 (KERNEL32) BaseThreadInitThunk
+0x00007fff65042651 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(907b278a7d3eede48ac3da3286160283) Importer(-1,00000000000000000000000000000000), Assets/GPMLogViewerForMRTK/GPM/LogViewer/Prefabs/GpmLogViewer.prefab from editor
+Resuming Guid(907b278a7d3eede48ac3da3286160283) Importer(-1,00000000000000000000000000000000) -> 3c2265e67d18ae7ed9b693f062bb718a 
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+ -> (artifact id: '8aab3ad5d076dc879a37e419262817ad') in 1.152396 seconds
+  Import took 1.157748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078794 seconds.
+  path: Assets/GPMLogViewerForMRTK/GPM/LogViewer/Prefabs/GpmLogViewer.prefab
+  artifactKey: Guid(907b278a7d3eede48ac3da3286160283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GPMLogViewerForMRTK/GPM/LogViewer/Prefabs/GpmLogViewer.prefab using Guid(907b278a7d3eede48ac3da3286160283) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff63c61d222 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff63c5e8c02 (Unity) ResolveArtifactV2
+0x00007ff63c608250 (Unity) ImportToObjects
+0x00007ff63c607729 (Unity) ImportAsset
+0x00007ff63c5698b8 (Unity) AssetImportWorker::Import
+0x00007ff63c5bd8af (Unity) <lambda_e7e5f5e49556456463706cfa5dd72d0a>::operator()
+0x00007ff63c6606e2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff63c662840 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff63c665fce (Unity) asio::io_service::run
+0x00007ff63c5e967b (Unity) RunAssetImportWorkerClientV2
+0x00007ff63c5e96d0 (Unity) RunAssetImporterV2
+0x00007ff63badb2a6 (Unity) Application::InitializeProject
+0x00007ff63c45e482 (Unity) WinMain
+0x00007ff63e2e67b6 (Unity) __scrt_common_main_seh
+0x00007fff64627034 (KERNEL32) BaseThreadInitThunk
+0x00007fff65042651 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(907b278a7d3eede48ac3da3286160283) Importer(-1,00000000000000000000000000000000), Assets/GPMLogViewerForMRTK/GPM/LogViewer/Prefabs/GpmLogViewer.prefab from editor
+Resuming Guid(907b278a7d3eede48ac3da3286160283) Importer(-1,00000000000000000000000000000000) -> 3c2265e67d18ae7ed9b693f062bb718a 
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff63c61d222 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff63c5e8c02 (Unity) ResolveArtifactV2
+0x00007ff63c5df9a1 (Unity) ProduceArtifactV2
+0x00007ff63c53355e (Unity) AssetDatabase::ProduceArtifact
+0x00007ff63c518b18 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff63c608619 (Unity) ImportToObjects
+0x00007ff63c607729 (Unity) ImportAsset
+0x00007ff63c5698b8 (Unity) AssetImportWorker::Import
+0x00007ff63c5bd8af (Unity) <lambda_e7e5f5e49556456463706cfa5dd72d0a>::operator()
+0x00007ff63c6606e2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff63c662840 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff63c665fce (Unity) asio::io_service::run
+0x00007ff63c5e967b (Unity) RunAssetImportWorkerClientV2
+0x00007ff63c5e96d0 (Unity) RunAssetImporterV2
+0x00007ff63badb2a6 (Unity) Application::InitializeProject
+0x00007ff63c45e482 (Unity) WinMain
+0x00007ff63e2e67b6 (Unity) __scrt_common_main_seh
+0x00007fff64627034 (KERNEL32) BaseThreadInitThunk
+0x00007fff65042651 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(907b278a7d3eede48ac3da3286160283) Importer(-1,00000000000000000000000000000000), Assets/GPMLogViewerForMRTK/GPM/LogViewer/Prefabs/GpmLogViewer.prefab from editor
+Resuming Guid(907b278a7d3eede48ac3da3286160283) Importer(-1,00000000000000000000000000000000) -> 3c2265e67d18ae7ed9b693f062bb718a 
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+ -> (artifact id: '8aab3ad5d076dc879a37e419262817ad') in 0.004205 seconds
+  Import took 0.008772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036249 seconds.
+  path: Assets/GPMLogViewerForMRTK/GPM/LogViewer/Prefabs/GpmLogViewer.prefab
+  artifactKey: Guid(907b278a7d3eede48ac3da3286160283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GPMLogViewerForMRTK/GPM/LogViewer/Prefabs/GpmLogViewer.prefab using Guid(907b278a7d3eede48ac3da3286160283) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff63c61d222 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff63c5e8c02 (Unity) ResolveArtifactV2
+0x00007ff63c608250 (Unity) ImportToObjects
+0x00007ff63c607729 (Unity) ImportAsset
+0x00007ff63c5698b8 (Unity) AssetImportWorker::Import
+0x00007ff63c5bd8af (Unity) <lambda_e7e5f5e49556456463706cfa5dd72d0a>::operator()
+0x00007ff63c6606e2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff63c662840 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff63c665fce (Unity) asio::io_service::run
+0x00007ff63c5e967b (Unity) RunAssetImportWorkerClientV2
+0x00007ff63c5e96d0 (Unity) RunAssetImporterV2
+0x00007ff63badb2a6 (Unity) Application::InitializeProject
+0x00007ff63c45e482 (Unity) WinMain
+0x00007ff63e2e67b6 (Unity) __scrt_common_main_seh
+0x00007fff64627034 (KERNEL32) BaseThreadInitThunk
+0x00007fff65042651 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(907b278a7d3eede48ac3da3286160283) Importer(-1,00000000000000000000000000000000), Assets/GPMLogViewerForMRTK/GPM/LogViewer/Prefabs/GpmLogViewer.prefab from editor
+Resuming Guid(907b278a7d3eede48ac3da3286160283) Importer(-1,00000000000000000000000000000000) -> 3c2265e67d18ae7ed9b693f062bb718a 
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff63c61d222 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff63c5e8c02 (Unity) ResolveArtifactV2
+0x00007ff63c5df9a1 (Unity) ProduceArtifactV2
+0x00007ff63c53355e (Unity) AssetDatabase::ProduceArtifact
+0x00007ff63c518b18 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff63c608619 (Unity) ImportToObjects
+0x00007ff63c607729 (Unity) ImportAsset
+0x00007ff63c5698b8 (Unity) AssetImportWorker::Import
+0x00007ff63c5bd8af (Unity) <lambda_e7e5f5e49556456463706cfa5dd72d0a>::operator()
+0x00007ff63c6606e2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff63c662840 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff63c665fce (Unity) asio::io_service::run
+0x00007ff63c5e967b (Unity) RunAssetImportWorkerClientV2
+0x00007ff63c5e96d0 (Unity) RunAssetImporterV2
+0x00007ff63badb2a6 (Unity) Application::InitializeProject
+0x00007ff63c45e482 (Unity) WinMain
+0x00007ff63e2e67b6 (Unity) __scrt_common_main_seh
+0x00007fff64627034 (KERNEL32) BaseThreadInitThunk
+0x00007fff65042651 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(907b278a7d3eede48ac3da3286160283) Importer(-1,00000000000000000000000000000000), Assets/GPMLogViewerForMRTK/GPM/LogViewer/Prefabs/GpmLogViewer.prefab from editor
+Resuming Guid(907b278a7d3eede48ac3da3286160283) Importer(-1,00000000000000000000000000000000) -> 3c2265e67d18ae7ed9b693f062bb718a 
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+ -> (artifact id: '8aab3ad5d076dc879a37e419262817ad') in 0.004024 seconds
+  Import took 0.008686 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
