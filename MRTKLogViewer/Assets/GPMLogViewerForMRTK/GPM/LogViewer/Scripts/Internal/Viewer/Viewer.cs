@@ -41,7 +41,7 @@
 
             SelectConsole();
 
-            Show(false);
+            Show(GpmLogViewer.InitialVisible);
 
             Log.Instance.AddLogNotificationCallback(OnLogNotification);
         }

@@ -8,6 +8,9 @@
     {
         public const string VERSION         = "2.0.2";
 
+        [Space]
+        public static bool InitialVisible = true;
+
         [Header("Gesture")]
         [Space]
         public bool         gestureEnable   = true;
