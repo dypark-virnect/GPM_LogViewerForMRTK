@@ -8,8 +8,9 @@
     {
         public const string VERSION         = "2.0.2";
 
+        [Header("Visible")]
         [Space]
-        public static bool InitialVisible = true;
+        public bool InitialVisible = true;
 
         [Header("Gesture")]
         [Space]
@@ -91,6 +92,7 @@
             }
 
             viewer.Initialize();
+            viewer.Show(InitialVisible);
             SetGestureEnable();
         }
 

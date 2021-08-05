@@ -41,8 +41,6 @@
 
             SelectConsole();
 
-            Show(GpmLogViewer.InitialVisible);
-
             Log.Instance.AddLogNotificationCallback(OnLogNotification);
         }
 
@@ -180,7 +178,7 @@
             pannel.SetActive(true);
         }
 
-        private void Show(bool show)
+        public void Show(bool show)
         {
             pannel.SetActive(show);
         }
