@@ -1,6 +1,6 @@
 {
 	"name": "com.virnect.mrtklogviewer",
-	"version": "0.1.7",
+	"version": "0.1.8",
 	"displayName": "GPM LogViewer for MRTK",
 	"description": "MRTK용 로그뷰어입니다!"
 }
