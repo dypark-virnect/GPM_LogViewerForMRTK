@@ -6,23 +6,15 @@
 - mrtk 2.7.2
 ## 사용방법
 
-1. package 서버 설정
-
-![image](https://user-images.githubusercontent.com/82790796/123583386-7a726a00-d81a-11eb-82e6-32b387dded03.png)
-
-2. package manager > my registries > GPM LogViewer for MRTK 선택하여 설치
-
-![image](https://user-images.githubusercontent.com/82790796/123583453-90802a80-d81a-11eb-86ac-3afb899efe1b.png)
-
-3. Packages/GPM/LogViewer/Prefabs/MRTKLogViewer.prefab를 씬에 drag & drop 하여 추가
+- Packages/GPM/LogViewer/Prefabs/MRTKLogViewer.prefab를 씬에 drag & drop 하여 추가
 
 ![image](https://user-images.githubusercontent.com/82790796/123583272-49923500-d81a-11eb-8439-c9f110141334.png)
 
-4. 플레이 중 ` 버튼을 눌러 활성화
+- 플레이 중 ` 버튼을 눌러 활성화
 
 ![image](https://user-images.githubusercontent.com/82790796/123583604-dc32d400-d81a-11eb-96e5-21a15bd7ccb5.png)
 
-5. (option) mail setting을 설정하여 테스트 로그를 메일로 보낼 수 있습니다
+- (option) mail setting을 설정하여 테스트 로그를 메일로 보낼 수 있습니다
 
 ![image](https://user-images.githubusercontent.com/82790796/123583674-fcfb2980-d81a-11eb-90f2-49aa3bee0fa6.png)
 
